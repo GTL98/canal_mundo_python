@@ -2,4 +2,4 @@
 
 |Repositório|Vídeo|Código|
 |:-:|:-:|:-:|
-|repositorio|link|codigo|
+|Funções de lista|link|[Gabarito](https://github.com/GTL98/canal_mundo_python/blob/main/Fun%C3%A7%C3%B5es%20de%20lista/funcoes_lista.ipynb)|
