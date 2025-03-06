@@ -5,7 +5,7 @@ from random import choices
 from caracteres import CARACTERES
 
 
-def gerador_senha(quantidade: int) -> str:
+def gerador_senhas(quantidade: int) -> str:
     """
     Função é responsável pela geração de uma senha aleatória.
     :param quantidade: Quantidade de caracteres na senha.
