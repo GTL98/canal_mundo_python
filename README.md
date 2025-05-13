@@ -8,4 +8,5 @@
 |Funções de dicionário|[Domine Dicionários em Python - Funções e Métodos Essenciais para Trabalhar com Dicts!](https://www.youtube.com/watch?v=3GgWWfm9FmY)|[Gabarito](https://github.com/GTL98/canal_mundo_python/blob/main/Fun%C3%A7%C3%B5es%20de%20dicion%C3%A1rio/metodos_dicionario.ipynb)|
 |Como criar um malware|[Como Malwares São Criados? Entendendo o Básico com Python (Apenas para Estudo)](https://www.youtube.com/watch?v=G2_gfBwRoEc)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Como%20criar%20um%20malware)|
 |Chatbot Streamlit + Gemini|[Streamlit + Gemini: Tutorial Completo para Criar Seu Chatbot IA!](https://www.youtube.com/watch?v=FAWwi4LQjLM)|[Gabarito](https://github.com/GTL98/canal_mundo_python/blob/main/Chatbot%20Streamlit%20%2B%20Gemini/chat_gemini.py)|
+|Gemini leitor de imagens|[]()|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Gemini%20leitor%20de%20imagens)
 
