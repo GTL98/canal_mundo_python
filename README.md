@@ -9,5 +9,5 @@
 |Como criar um malware|[Como Malwares São Criados? Entendendo o Básico com Python (Apenas para Estudo)](https://www.youtube.com/watch?v=G2_gfBwRoEc)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Como%20criar%20um%20malware)|
 |Chatbot Streamlit + Gemini|[Streamlit + Gemini: Tutorial Completo para Criar Seu Chatbot IA!](https://www.youtube.com/watch?v=FAWwi4LQjLM)|[Gabarito](https://github.com/GTL98/canal_mundo_python/blob/main/Chatbot%20Streamlit%20%2B%20Gemini/chat_gemini.py)|
 |Gemini leitor de imagens|[Como Criar um Chatbot IA que Vê, Entende e Descreve Imagens (Streamlit + Gemini)!](https://www.youtube.com/watch?v=sJEZcXHmZq0)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Gemini%20leitor%20de%20imagens)|
-|Gerador de QRCode|[]()|[Gabarito](https://github.com/GTL98/canal_mundo_python/blob/main/Gerador%20de%20QRCode/gerador_qrcode.py)
+|Gerador de QRCode|[Aprenda a Criar QR Codes com Python (Para Iniciantes e Além!)]()|[Gabarito](https://github.com/GTL98/canal_mundo_python/blob/main/Gerador%20de%20QRCode/gerador_qrcode.py)
 
