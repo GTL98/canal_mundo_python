@@ -1,0 +1,39 @@
+# --- Definir a regra para o widget GeradorSenha --- #
+<GeradorSenha>:
+    id: layout_principal
+    orientation: 'vertical'
+    spacing: 15
+    padding: 20
+
+    # --- Título do aplicativo --- #
+    Label:
+        text: 'Gerador de Senhas'
+        font_size: '32sp'
+        size_hint_y: None
+        height: self.texture_size[1] + 10
+        color: 0.2, 0.6, 0.8, 1
+
+    # --- Campo de texto para exibir a senha gerada --- #
+    TextInput:
+        id: saida_senha
+        multiline: False
+        readonly: True
+        font_size: '24sp'
+        size_hint_y: None
+        height: '60dp'
+        background_color: 0.15, 0.15, 0.15, 1
+        foreground_color: 0.8, 0.8, 0.8, 1
+        cursor_color: 0.8, 0.8, 0.8, 1
+        hint_text: 'Sua senha aparecerá aqui'
+        padding: [10, (self.height - self.font_size) / 2, 10, 0]
+	
+	# --- Botão para gerar a senha --- #
+    Button:
+        text: 'Gerar Senha'
+        font_size: '20sp'
+        size_hint_y: None
+        height: '50dp'
+        background_normal: ''
+        background_color: 0.2, 0.6, 0.8, 1
+        color: 1, 1, 1, 1
+        on_press: root.gerar_senha()
