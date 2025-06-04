@@ -11,5 +11,5 @@
 |Gemini leitor de imagens|[Como Criar um Chatbot IA que Vê, Entende e Descreve Imagens (Streamlit + Gemini)!](https://www.youtube.com/watch?v=sJEZcXHmZq0)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Gemini%20leitor%20de%20imagens)|
 |Gerador de QRCode|[Aprenda a Criar QR Codes com Python (Para Iniciantes e Além!)]()|[Gabarito](https://github.com/GTL98/canal_mundo_python/blob/main/Gerador%20de%20QRCode/gerador_qrcode.py)|
 |Curso Streamlit|[Playlist](https://www.youtube.com/playlist?list=PLYE_6MNsHIyN--yBVaSq9xdNSLO5SNtXY)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Curso%20Streamlit)|
-|Curso Kivy|[Playlist]()|[Gabarito]()|
+|Curso Kivy|[Playlist]()|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Curso%20Kivy)|
 
