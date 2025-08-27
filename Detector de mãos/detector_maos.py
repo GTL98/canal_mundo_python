@@ -14,7 +14,7 @@ class DetectorMaos:
         alguns instântes as marcações, porém não trava.
         :param max_maos: Quantidade máxima de mãos para serem detectadas.
         :param deteccao_confianca: Percentual da taxa de detecção da mão. Se for menor do que este liminte,
-        a datecção não ocorre.
+        a detecção não ocorre.
         :param rastreio_confianca: Percentual da taxa de rastreio dos pontos da mão. Se for menor que este
         limite, o rastreio dos pontos não é realizado.
         :param cor_pontos: Cor dos pontos.
@@ -149,3 +149,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
