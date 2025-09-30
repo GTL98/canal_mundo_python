@@ -14,4 +14,4 @@
 |Minicurso PySide2: Gerador de senhas|[Playlist](https://www.youtube.com/playlist?list=PLYE_6MNsHIyNPJ6xSuFu0h87-F9TwI8Nh)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Gerador%20de%20senhas)|
 |Minicurso Pygame: Pong|[Playlist](https://www.youtube.com/playlist?list=PLYE_6MNsHIyOH3xtyXM8dc8FykrHPxzt-)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Minicurso%20Pygame%3A%20Pong)|
 |Detector de mãos|[Detecção de Mãos com OpenCV e MediaPipe: O Único Tutorial que Você Precisa! ✋🤖](https://www.youtube.com/watch?v=JAJEnRaOU0A)|[Gabarito](https://github.com/GTL98/canal_mundo_python/blob/main/Detector%20de%20m%C3%A3os/detector_maos.py)|
-|Detector de rosto|[Detecção Facial com MediaPipe e OpenCV | Classe Personalizada em Python 🎭]()|[Gabarito](https://github.com/GTL98/canal_mundo_python/blob/main/Detector%20de%20rosto/detector_rosto.py)|
+|Detector de rosto|[Detecção Facial com MediaPipe e OpenCV Classe Personalizada em Python 🎭](https://www.youtube.com/watch?v=Hd4NhIFXXYA)|[Gabarito](https://github.com/GTL98/canal_mundo_python/blob/main/Detector%20de%20rosto/detector_rosto.py)|
