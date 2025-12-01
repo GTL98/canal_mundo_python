@@ -18,4 +18,4 @@
 |Malha do rosto|[Malha Facial com MediaPipe e OpenCV: Classe Personalizada em Python 🎭](https://www.youtube.com/watch?v=rAwY0HCf7KM)|[Gabarito](https://github.com/GTL98/canal_mundo_python/blob/main/Malha%20do%20rosto/malha_rosto.py)|
 |IA Titanic|[Como Criar um Modelo de IA com o Dataset do Titanic - Guia Completo para Iniciantes! 🚢🤖](https://www.youtube.com/watch?v=yFBG_kyZYrw)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/IA%20Titanic)|
 |Criptografia com DNA|[Criptografia com DNA: O Futuro da Segurança de Dados! 🧬🔐](https://www.youtube.com/watch?v=kcKGj0gGpTg)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Criptografia%20com%20DNA)|
-|Filtro preto e branco|[video]()|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Filtro%20preto%20e%20branco)
+|Filtro preto e branco|[Filtro OpenCV: Máscara de Cor - Destaque Colorido em Preto e Branco! 🎨👁️]()|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Filtro%20preto%20e%20branco)
