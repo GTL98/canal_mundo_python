@@ -19,4 +19,4 @@
 |IA Titanic|[Como Criar um Modelo de IA com o Dataset do Titanic - Guia Completo para Iniciantes! 🚢🤖](https://www.youtube.com/watch?v=yFBG_kyZYrw)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/IA%20Titanic)|
 |Criptografia com DNA|[Criptografia com DNA: O Futuro da Segurança de Dados! 🧬🔐](https://www.youtube.com/watch?v=kcKGj0gGpTg)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Criptografia%20com%20DNA)|
 |Filtro preto e branco|[Filtro OpenCV: Máscara de Cor - Destaque Colorido em Preto e Branco! 🎨👁️](https://www.youtube.com/watch?v=N3rCnQYU3r4)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Filtro%20preto%20e%20branco)
-|Cronômetro|[Playlist]()|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Cron%C3%B4metro)
+|Cronômetro|[Playlist](https://www.youtube.com/playlist?list=PLYE_6MNsHIyOBW2vrqKlusxiETyKNPEIn)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Cron%C3%B4metro)
