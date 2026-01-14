@@ -1,0 +1,70 @@
+# --- Layout do gerador de senha --- #
+<LayoutGeradorSenha>:
+    orientation: 'vertical'
+    padding: 20
+    spacing: 15
+
+    # --- Campo de texto onde aparecerá a senha --- #
+    Label:
+        text: 'Sua senha aparecerá aqui'
+        font_size: '20sp'
+        size_hint_y: None
+        height: '50dp'
+
+    # -- Espaço para colocar os checkboxes --- #
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: 10
+
+        Label:
+            text: 'Tipos de caracteres'
+            size_hint_y: None
+            height: '30dp'
+
+        BoxLayout:
+            CheckBox:
+                active: root.maiusculas
+                on_active: root.maiusculas = self.active
+            Label:
+                text: 'Letras maiúsculas'
+
+        BoxLayout:
+            CheckBox:
+                active: root.minusculas
+                on_active: root.minusculas = self.active
+            Label:
+                text: 'Letras minúsculas'
+
+        BoxLayout:
+            CheckBox:
+                active: root.numeros
+                on_active: root.numeros = self.active
+            Label:
+                text: 'Números'
+
+        BoxLayout:
+            CheckBox:
+                active: root.especiais
+                on_active: root.especiais = self.active
+            Label:
+                text: 'Caracteres especiais'
+
+    # --- Slider para determinar o tamanho da senha --- #
+    Label:
+        text: 'Tamanho da senha: ' + str(root.tamanho_senha)
+        font_size: '32sp'
+        size_hint_y: None
+        height: '30dp'
+
+    Slider:
+        min: 4
+        max: 32
+        value: root.tamanho_senha
+        step: 1
+        on_value: root.atualizar_tamanho(self.value)
+
+    # --- Botão para gerar a senha --- #
+    Button:
+        text: 'Gerar senha'
+        size_hint_y: None
+        height: '50dp'
