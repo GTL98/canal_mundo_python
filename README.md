@@ -21,3 +21,4 @@
 |Filtro preto e branco|[Filtro OpenCV: Máscara de Cor - Destaque Colorido em Preto e Branco! 🎨👁️](https://www.youtube.com/watch?v=N3rCnQYU3r4)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Filtro%20preto%20e%20branco)
 |Minicurso PySide6: Cronômetro|[Playlist](https://www.youtube.com/playlist?list=PLYE_6MNsHIyOBW2vrqKlusxiETyKNPEIn)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Minicurso%20PySide%206%3A%20Cron%C3%B4metro)|
 |Minicurso Kivy: Gerador de senhas|[Playlist](https://www.youtube.com/playlist?list=PLYE_6MNsHIyPCxmn_OOYe-eBIxzyySsIO)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Minicurso%20Kivy%3A%20Gerador%20de%20senhas)|
+|Face Blur|[Face Blur em Tempo Real com OpenCV e MediaPipe - Proteja a Privacidade com Python! 🎭🔍](https://www.youtube.com/watch?v=9D0seFsJOFA)|[Gabarito](https://github.com/GTL98/canal_mundo_python/blob/main/Face%20Blur/face_blur.py)|
