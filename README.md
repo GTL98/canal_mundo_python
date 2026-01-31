@@ -23,4 +23,4 @@
 |Minicurso Kivy: Gerador de senhas|[Playlist](https://www.youtube.com/playlist?list=PLYE_6MNsHIyPCxmn_OOYe-eBIxzyySsIO)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Minicurso%20Kivy%3A%20Gerador%20de%20senhas)|
 |Face Blur|[Face Blur em Tempo Real com OpenCV e MediaPipe - Proteja a Privacidade com Python! 🎭🔍](https://www.youtube.com/watch?v=9D0seFsJOFA)|[Gabarito](https://github.com/GTL98/canal_mundo_python/blob/main/Face%20Blur/face_blur.py)|
 |Pandas Masterclass: Do Zero ao Herói dos Dados|[Playlist](https://www.youtube.com/playlist?list=PLYE_6MNsHIyP68pUGRWRFKdnmLZK_S8U4)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Pandas%20Masterclass%3A%20Do%20Zero%20ao%20Her%C3%B3i%20dos%20Dados)|
-|Dominando Machine Learning com Scikit-Learn|[Playlist]()|[Gabarito]()|
+|Dominando Machine Learning com Scikit-Learn|[Playlist](https://www.youtube.com/playlist?list=PLYE_6MNsHIyNG7DmI-HFJDFBI-GqnpVZC)|[Gabarito]()|
