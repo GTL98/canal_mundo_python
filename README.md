@@ -25,3 +25,4 @@
 |Pandas Masterclass: Do Zero ao Herói dos Dados|[Playlist](https://www.youtube.com/playlist?list=PLYE_6MNsHIyP68pUGRWRFKdnmLZK_S8U4)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Pandas%20Masterclass%3A%20Do%20Zero%20ao%20Her%C3%B3i%20dos%20Dados)|
 |Dominando Machine Learning com Scikit-Learn|[Playlist](https://www.youtube.com/playlist?list=PLYE_6MNsHIyNG7DmI-HFJDFBI-GqnpVZC)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Dominando%20Machine%20Learning%20com%20Scikit-Learn)|
 |Desenvolvedor KivyMD: Do Zero ao App Multiplataforma|[Playlist](https://www.youtube.com/playlist?list=PLYE_6MNsHIyOXfLYfhpNmg9p1h236nly3)|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Desenvolvedor%20KivyMD%3A%20Do%20Zero%20ao%20App%20Multiplataforma)
+|Maestria em PySide6: O Guia Definitivo|[Playlist]()|[Gabarito](https://github.com/GTL98/canal_mundo_python/tree/main/Maestria%20em%20PySide6%3A%20O%20Guia%20Definitivo)|
