@@ -1,0 +1,91 @@
+MDScreen:
+    md_bg_color: self.theme_cls.bg_normal
+
+    MDBoxLayout:
+        orientation: 'vertical'
+
+        MDTopAppBar:
+            title: 'Aula 02: Estrutura KV'
+            elevation: 4
+            pos_hint: {'top': 1}
+            md_bg_color: app.theme_cls.primary_color
+            specific_text_color: 1, 1, 1, 1
+            right_action_items: [['dots-vertical', lambda x: print('Menu aberto')]]
+
+        # --- Container principal com padding para respeitar a hierarquia visual --- #
+        MDBoxLayout:
+            orientation: 'vertical'
+            padding: '24dp'
+            spacing: '15dp'
+
+            MDLabel:
+                text: 'Registro de Desenvolvedor'
+                haling: 'left'
+                font_style: 'H6'
+                theme_text_color: 'Primary'
+                adaptative_height: True
+
+            MDLabel:
+                text: 'Preencha os dados para validar sua integração KV-Python'
+                haling: 'left'
+                font_style: 'Body2'
+                theme_text_color: 'Secondary'
+                adaptative_height: True
+
+            # --- Campos de entrada de dados --- #
+            MDTextField:
+                id: input_nome
+                hint_text: 'Nome completo'
+                icon_left: 'account-edit'
+                mode: 'rectangle'
+
+            MDTextField:
+                id: input_projeto
+                hint_text: 'Nome do projeto'
+                icon_left: 'folder-star'
+                mode: 'rectangle'
+
+            # --- Layout horizontal para botões de ação --- #
+            MDBoxLayout:
+                orientation: 'horizontal'
+                spacing: '10dp'
+                adaptative_height: True
+
+                MDRaisedButton:
+                    text: 'VALIDAR'
+                    icon: 'check-circle'
+                    pos_hint: {'center_x': 0.5}
+                    # --- Passar o conteúdo do campo de texto diretamente como argumento --- #
+                    on_release: app.validar_registro(input_nome.text, input_projeto.text)
+
+                MDFlatButton:
+                    text: 'REINICIAR'
+                    on_release: app.reiniciar_campos()
+
+            # --- Superfície de feedback usando MDCard --- #
+            MDCard:
+                size_hint: (1, None)
+                height: '140dp'
+                padding: '20dp'
+                elevation: 2
+                radius: [15, ]
+                md_bg_color: app.theme_cls.primary_light if app.theme_cls.theme_style == 'Light' else [0.2, 0.2, 0.2, 1]
+
+                MDBoxLayout:
+                    orientation: 'vertical'
+                    spacing: '5dp'
+
+                    MDLabel:
+                        text: 'STATUS DO SISTEMA'
+                        font_style: 'Caption'
+                        theme_text_color: 'Hint'
+
+                    MDLabel:
+                        id: feedback_final
+                        text: 'Aguardando submissão de dados pelo usuário'
+                        haling: 'center'
+                        font_style: 'Subtitle1'
+                        theme_text_color: 'Secondary'
+
+            # --- O widget genético atua como um espaçador flexível --- #
+            Widget:
