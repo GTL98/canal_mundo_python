@@ -1,0 +1,78 @@
+# --- Definir o widget raiz da aplicação --- #
+MDScreen:
+    # --- Vincular a cor de fundo da tela ao tema atual --- #
+    md_bg_color: self.theme_cls.bg_normal
+
+    MDBoxLayout:
+        orientation: 'vertical'
+
+        # --- Barra superior que utiliza a cor primária definida no arquivo Python --- #
+        MDTopAppBar:
+            title: 'Configurações de Brilho'
+            elevation: 4
+            pos_hint: {'top': 1}
+            # --- A cor da barra é vinculada à primary_color do tema --- #
+            md_bg_color: app.theme_cls.primary_color
+
+        MDBoxLayout:
+            orientation: 'vertical'
+            padding: '20dp'
+            spacing: '30dp'
+
+            # --- Espaço flexível superior --- #
+            Widget:
+                size_hint_y: 0.2
+
+            MDLabel:
+                text: 'Interface Adapativa'
+                haling: 'center'
+                font_style: 'H5'
+                bold: True
+                theme_text_color: 'Primary'
+
+            # --- Container para o controle de tema com ícones dinâmicos --- #
+            MDBoxLayout:
+                adaptative_height: True
+                pos_hint: {'center_x': 0.5}
+                spacing: '20dp'
+                height: '48dp'
+                padding: [0, '10dp', 0, 0]
+
+                MDIcon:
+                    icon: 'weather-sunny'
+                    # --- Mudar a cor do ícone manualmente para feedback --- #
+                    theme_text_color: 'Custom'
+                    text_color: (1, 0.8, 0, 1) if not switch_tema.active else (0.5, 0.5, 0.5, 1)
+                    size_hint: None, None
+                    size: '24dp', '24dp'
+                    pos_hint: {'center_y': 0.5}
+
+                MDSwitch:
+                    id: switch_tema
+                    active: False
+                    on_active: app.atualizar_tema(self, self.active)
+                    pos_hint: {'center_y': 0.5}
+
+                MDIcon:
+                    icon: 'weather-night'
+                    theme_text_color: 'Custom'
+                    text_color: (0.5, 0.5, 0.8, 1) if switch_tema.active else (0.5, 0.5, 0.5, 1)
+                    size_hint: None, None
+                    size: '24dp', '24dp'
+                    pos_hint: {'center_y': 0.5}
+
+            MDLabel:
+                text: 'O Modo Escuro ajuda a reduzir a fadiga ocular em ambientes com pouca luz.'
+                haling: 'center'
+                font_style: 'Body2'
+                theme_text_color: 'Secondary'
+
+            # --- Um botão para testar a legibilidade da paleta primária --- #
+            MDRaisedButton:
+                text: 'BOTÃO DE AÇÃO'
+                pos_hint: {'center_x': 0.5}
+                size_hint_x: 0.7
+                elevation: 8
+
+            Widget:
+                size_hint_y: 1
