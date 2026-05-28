@@ -1,0 +1,69 @@
+MDScreen:
+    MDBoxLayout:
+        orientation: 'vertical'
+
+        # --- Barra superior do app com botão de acionamento de paleta --- #
+        MDTopAppBar:
+            title: 'Explorador de Cores'
+            elevation: 4
+            right_action_items: [['palette-outline', lambda x: app.alterar_paleta()]]
+
+        # --- Área de exibição interna --- #
+        MDBoxLayout:
+            orientation: 'vertical'
+            padding: '24dp'
+            spacing: '20dp'
+
+            # --- Cabeçalho --- #
+            MDLabel:
+                text: 'Painel de Visualização Cromática'
+                halign: 'center'
+                font_style: 'H5'
+                theme_text_color: 'Primary'
+
+            # --- Rótulo dinâmico (paleta primária) --- #
+            MDLabel:
+                text: 'Paleta Primária: ' + app.theme_cls.primary_palette + ' (Tom: ' + app.theme_cls.primary_hue + ')'
+                halign: 'center'
+                font_style: 'Subtitle1'
+                theme_text_color: 'Secondary'
+
+            # --- Rótulo dinâmico (paleta de acento) --- #
+            MDLabel:
+                text: 'Paleta de Acento: ' + app.theme_cls.accent_palette
+                halign: 'center'
+                font_style: 'Subtitle1'
+                theme_text_color: 'Secondary'
+
+            Widget:
+                size_hint_y: None
+                height: '20dp'
+
+            # --- Organizador horizontal de botões --- #
+            MDBoxLayout:
+                orientation: 'horizontal'
+                spacing: '16dp'
+                adaptive_size: True
+                pos_hint: {'center_x': 0.5}
+
+                # --- Botão de alteração do tom (hue) --- #
+                MDRaisedButton:
+                    text: 'Alterar Tom'
+                    text_color: app.theme_cls.accent_color
+                    on_release: app.alterar_tonalidade_primaria()
+
+                # --- Botão que gerencia a cor do acento --- #
+                MDRoundFlatIconButton:
+                    icon: 'brush'
+                    text: 'Mudar Acento'
+                    text_color: app.theme_cls.accent_color
+                    icon_color: app.theme_cls.accent_color
+                    line_color: app.theme_cls.accent_color
+                    on_release: app.alterar_acento()
+
+            # --- Resetar o tema --- #
+            MDFloatingActionButton:
+                icon: 'restore'
+                pos_hint: {'center_x': 0.5}
+                icon_color: app.theme_cls.accent_color
+                on_release: app.resetar_tema()
