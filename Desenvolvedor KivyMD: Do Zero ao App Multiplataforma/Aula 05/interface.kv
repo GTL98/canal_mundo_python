@@ -1,0 +1,102 @@
+MDScreen:
+    md_bg_color: app.theme_cls.bg_normal
+
+    MDBoxLayout:
+        orientation: 'vertical'
+
+        # --- Barra superior do app --- #
+        MDTopAppBar:
+            title: 'Guia Tipográfico KivyMD'
+            elevation: 4
+            md_bg_color: app.theme_cls.primary_color
+
+        # --- Painel rolável para acomodar múltiplos estilos de texto --- #
+        MDScrollView:
+            do_scroll_x: False
+            do_scroll_y: True
+
+            MDBoxLayout:
+                orientation: 'vertical'
+                adaptive_height: True
+                padding: '24dp'
+                spacing: '16dp'
+
+                # --- Título principal da tela --- #
+                MDLabel:
+                    text: 'Escala Padrão (H4)'
+                    font_style: 'H4'
+                    halign: 'center'
+                    theme_text_color: 'Primary'
+
+                MDSeparator:
+
+                # --- Demonstração de estilos de cabeçalhos --- #
+                MDLabel:
+                    text: 'Título de Cartão (H6)'
+                    font_style: 'H6'
+                    theme_text_color: 'Primary'
+                    size_hint_y: None
+
+                MDLabel:
+                    text: 'Este é o Subtitle1, amplamente utilizado em cabeçalhos secundrários e itens de lista.'
+                    font_style: 'Subtitle1'
+                    theme_text_color: 'Secondary'
+                    size_hint_y: None
+
+                # --- Demonstração do estilo de corpo de texto principal --- #
+                MDLabel:
+                    text: 'Este bloco de parágrafo é renderizado com estilo Body1. Ele foi desenhado especificamente para parágrafos longos, oferencendo excelente legibilidade em telas de smartphones de diversas resoluções e densidades de pixels.'
+                    font_style: 'Body1'
+                    theme_text_color: 'Primary'
+                    size_hint_y: None
+
+                # --- Demonstração do estilo de corpo secundário --- #
+                MDLabel:
+                    text: 'Este bloco utiliza o Body2, ideal para metadados e notas explicativas relevantes.'
+                    font_style: 'Body2'
+                    theme_text_color: 'Secondary'
+                    size_hint_y: None
+
+                # --- Demonstração do estilo de legenda --- #
+                MDLabel:
+                    text: 'LEGENDA DE IMAGEM OU CAMPO (CAPTION)'
+                    font_style: 'Caption'
+                    theme_text_color: 'Hint'
+                    size_hint_y: None
+
+                MDSeparator:
+
+                # --- Seção de demonstração do estilo de fonte personalizada --- #
+                MDLabel:
+                    text: 'Estilos Tipográficos Injetados'
+                    font_style: 'H5'
+                    halign: 'center'
+                    theme_text_color: 'Primary'
+                    size_hint_y: None
+
+                # --- Exobição da tipografia customizada --- #
+                MDLabel:
+                    text: 'Esta é a fonte AdventPro regular customizada!'
+                    font_style: 'AdventPro'
+                    halign: 'center'
+                    theme_text_color: 'Custom'
+                    text_color: app.theme_cls.primary_color
+                    size_hint_y: None
+
+                MDLabel:
+                    text: 'Esta é a fonte AdventPro em negrito customizada!'
+                    font_style: 'AdventPro'
+                    halign: 'center'
+                    theme_text_color: 'Custom'
+                    text_color: app.theme_cls.primary_color
+                    bold: True
+                    size_hint_y: None
+
+                MDLabel:
+                    text: 'Esta é a fonte AdventPro em itálico customizada!'
+                    font_style: 'AdventPro'
+                    halign: 'center'
+                    theme_text_color: 'Custom'
+                    text_color: app.theme_cls.primary_color
+                    italic: True
+                    size_hint_y: None
